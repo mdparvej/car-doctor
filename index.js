@@ -209,6 +209,4 @@ run().catch(console.dir);
 app.get('/',(req,res) => {
     res.send('Doctor portal is runing')
 });
-app.listen(port, () => {
-    console.log(`Doctor Portal is runing ${port}`)
-});
+module.exports = app;
